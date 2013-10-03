@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Start:</b>
+  <%= @game.start %>
+</p>
+
+<p>
+  <b>Interval:</b>
+  <%= @game.interval %>
+</p>
+
+
+<%= link_to 'Edit', edit_game_path(@game) %> |
+<%= link_to 'Back', games_path %>

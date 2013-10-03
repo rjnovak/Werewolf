@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  password: MyString
+  pic: MyString
+  score: 1
+  player: 1
+  is_admin: false
+
+two:
+  name: MyString
+  password: MyString
+  pic: MyString
+  score: 1
+  player: 1
+  is_admin: false
