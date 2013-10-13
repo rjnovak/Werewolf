@@ -5,6 +5,7 @@ class CreatePlayers < ActiveRecord::Migration
       t.integer :role
       t.decimal :lat
       t.decimal :lon
+      t.integer :votes
       t.integer :votes_for
       t.integer :user_id
       t.integer :game_id

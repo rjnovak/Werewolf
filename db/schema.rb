@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(:version => 20131001021331) do
   end
 
   create_table "players", :force => true do |t|
+    t.integer  "votes"
     t.integer  "game_id"
     t.boolean  "is_dead"
     t.integer  "role"
