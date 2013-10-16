@@ -4,7 +4,7 @@ Werewolf::Application.routes.draw do
   resources :users
   resources :players
 
-  root :to => 'welcome#index'
+  root :to => 'players#index'
   match '/kill/:killerid/:victimid', to: 'kill#show', :constraints => {:killerid => /[0-9]*/, :victimid => /[0-9]*/}
   match '/loc/:playerid/:nlat/:nlon', to: 'loc#setloc', :constraints => {:playerid => /[0-9]*/, :nlat => /[0-9]*/, :nlon => /[0-9]*/}
   match '/loc/:nlat/:nlon', to: 'loc#getnear', :constraints => {:nlat => /[0-9]*/, :nlon => /[0-9]*/}

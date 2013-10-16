@@ -8,6 +8,7 @@ gem 'rails', '3.2.13'
 group :development, :test do
   gem 'rspec-rails'
   gem 'sqlite3'
+  gem 'factory_girl_rails'
 end
 
 group :production do
@@ -16,12 +17,16 @@ group :production do
 end
 
 group :test do
+  gem 'faker', '1.1.2'
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+  gem 'database_cleaner', '0.9.1'
+  gem 'launchy', '2.2.0'
+  gem 'cucumber-rails'
 end
 
 gem 'bcrypt-ruby', '3.0.1'
-
+gem 'devise'
 
 # Gems used only for assets and not required
 # in production environments by default.
