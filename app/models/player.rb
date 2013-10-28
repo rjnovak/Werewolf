@@ -3,6 +3,7 @@ class Player < ActiveRecord::Base
   belongs_to :game
   attr_accessible :is_dead, :lat, :lon, :role, :votes, :votes_for, :user_id, :game_id
   
+  # 0 = town, 1 = wolf
   validates :role, presence: true
   validates :user_id, presence: true
   validates :game_id, presence: true
