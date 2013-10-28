@@ -25,7 +25,7 @@ class ResetController < ApplicationController
       elsif currentWolfCount == totalWolfCount
         role = 0
         currentTownCount = currentTownCount + 1
-      elsif condition
+      elsif currentTownCount == totalTownCount
         role = 1
         currentWolfCount = currentWolfCount + 1
       end
