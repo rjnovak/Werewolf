@@ -1,4 +1,5 @@
 class LocController < ApplicationController
+  # PUT /loc/1/1
   def setloc
     @player = Player.find(params[:playerid])
     respond_to do |format|
