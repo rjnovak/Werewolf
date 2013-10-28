@@ -26,7 +26,7 @@ group :test do
 end
 
 gem 'bcrypt-ruby', '3.0.1'
-gem 'devise'
+# gem 'devise'
 
 # Gems used only for assets and not required
 # in production environments by default.
