@@ -6,7 +6,7 @@ class ResetController < ApplicationController
   	@game = Game.new(start: Time.now, interval: params[:ninterval])
   	@game.save
     @users.each do |p|
-    	player = Player.new(role: 0, user_id: 1, game_id: @games.id)
+    	player = Player.new(role: 0, user_id: p.id, game_id: @game.id)
     	player.save
     end
     respond_to do |format|
