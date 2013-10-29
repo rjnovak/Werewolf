@@ -32,6 +32,35 @@ class VoteController < ApplicationController
     @players.each do |p|
       p.votes = 0
     end
+    wolfCount = Player.count(:conditions => "role = 1")
+    townCount = Player.count(:conditions => "role = 0")
+    if wolfCount == townCount
+      @users = User.all
+      @users.each do |p|
+        if p.player.role == 1
+          p.score = p.score + 100
+          Player.destroy_all
+          Game.destroy_all
+        end
+      end
+    elsif wolfCount == 0
+      @users = User.all
+      @users.each do |p|
+        if p.player.role == 0
+          p.score = p.score + 100
+          Player.destroy_all
+          Game.destroy_all
+        end
+      end
+    else
+      @users = User.all
+      @users.each do |p|
+        if p.player.role == 0
+          #townspeople gain 20 points per day survived
+          p.score = p.score + 20
+        end
+      end
+    end
     respond_to do |format|
       format.json { render json: @player }
     end
