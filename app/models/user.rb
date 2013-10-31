@@ -23,7 +23,7 @@ class User < ActiveRecord::Base
   #before_create { self.pic = "default.png"}
   #before_create { self.name = self.email }
   before_save()
-    if defined? self.token_authenticatable
+    if defined? self.authentication_token
       :ensure_authentication_token
     else
       :reset_authentication_token
