@@ -6,6 +6,7 @@ class Api::SessionsController < Devise::SessionsController
 
   def create
     warden.authenticate!(:scope => resource_name, :recall => "#{controller_path}#failure")
+    auth_token = User.select("authentication_token").where(id: current_user.id )
     render :status => 200,
            :json => { :success => true,
                       :info => "Logged in",
