@@ -5,10 +5,10 @@ class PlayersController < ApplicationController
   def index
     @players = Player.all
 
-    #respond_to do |format|
-    #  format.html # index.html.erb
-    #  format.json { render json: @players }
-    #end
+    respond_to do |format|
+      format.html # index.html.erb
+      format.json { render json: @players }
+    end
   end
 
   # GET /players/1
