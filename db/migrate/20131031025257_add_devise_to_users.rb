@@ -1,4 +1,8 @@
 class AddDeviseToUsers < ActiveRecord::Migration
+  def change
+    add_column :users, :authentication_token, :string
+  end
+
   def self.up
     change_table(:users) do |t|
       ## Database authenticatable
@@ -31,7 +35,7 @@ class AddDeviseToUsers < ActiveRecord::Migration
       # t.datetime :locked_at
 
       ## Token authenticatable
-      t.string :authentication_token
+      #t.string :authentication_token
 
 
       # Uncomment below if timestamps were not included in your original model.
