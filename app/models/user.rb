@@ -22,7 +22,9 @@ class User < ActiveRecord::Base
   #before_create { self.authentication_token = nil}
   #before_create { self.pic = "default.png"}
   #before_create { self.name = self.email }
-  before_save()
+  before_save :ensure_authentication
+
+  def ensure_authentication
     if defined? self.authentication_token
       :ensure_authentication_token
     else
