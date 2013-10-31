@@ -5,7 +5,10 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
-  <nav>
+</head>
+<body>
+
+    <nav>
   <% if user_signed_in? %>
    Signed in as <%= current_user.email %>
   <% else %>
@@ -13,13 +16,12 @@
    <% link_to "Sign in", new_user_session_path %>
   <% end %>
   </nav>
-</head>
-<body>
 
 <h1>Listing players</h1>
 
 <table>
   <tr>
+    <th>Is dead</th>
     <th>Role</th>
     <th>Lat</th>
     <th>Lon</th>
