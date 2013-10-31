@@ -41,6 +41,7 @@ ActiveRecord::Schema.define(:version => 20131001021331) do
     t.boolean  "is_admin"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string "authentication_token"
   end
 
 end

@@ -6,7 +6,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :pic
       t.integer :score
       t.boolean :is_admin
-      #t.string :authentication_token
+      t.string :authentication_token
 
       t.timestamps
     end
