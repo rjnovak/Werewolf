@@ -1,5 +1,7 @@
 Werewolf::Application.routes.draw do
 
+  devise_for :users
+
   resources :games
   resources :users
   resources :players
