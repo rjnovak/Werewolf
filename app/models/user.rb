@@ -8,7 +8,7 @@ class User < ActiveRecord::Base
          
 
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :is_admin, :name, :email, :password, :password_confirmation, :pic, :score, :remember_me, :authentication_token
+  attr_accessible :is_admin, :name, :email, :password, :password_confirmation, :pic, :score, :remember_me
   has_one :player
   # is_admin defaults to 0, pic should default to the default value, score should default to 0
   # validates :name,  presence: true, length: { maximum: 50 }, uniqueness: true
