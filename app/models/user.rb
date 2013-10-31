@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
   # :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable,
-         :confirmable, :token_authenticatable
+         #:confirmable, :token_authenticatable
 
   # Setup accessible (or protected) attributes for your model
   attr_accessible :is_admin, :name, :email, :password, :password_confirmation, :pic, :score, :remember_me
@@ -19,7 +19,7 @@ class User < ActiveRecord::Base
   before_create { self.score = 0 }
   #before_create { self.pic = "default.png"}
   #before_create { self.name = self.email }
-  before_save :ensure_authentication_token
+  #before_save :ensure_authentication_token
 
   has_secure_password
 end
