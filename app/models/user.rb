@@ -18,6 +18,7 @@ class User < ActiveRecord::Base
 
   before_create { self.is_admin = 0 }
   before_create { self.score = 0 }
+  before_create { self.authentication_token = nil}
   #before_create { self.pic = "default.png"}
   #before_create { self.name = self.email }
   before_save :ensure_authentication_token!
