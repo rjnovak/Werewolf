@@ -1,4 +1,9 @@
 class AddDeviseToUsers < ActiveRecord::Migration
+  def change
+    remove_column :authenication_token, :string
+    add_column :authentication_token, :string
+  end
+
   def self.up
     change_table(:users) do |t|
       ## Database authenticatable
