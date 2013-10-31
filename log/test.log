@@ -1,0 +1,852 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 12 Oct 2013 19:16:08 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$ekoFoAkdP4TgHOH9xX5TBe3vs.8VcOWOebD.nCcs/.2hoywi4tnPS"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sat, 12 Oct 2013 19:16:08 UTC +00:00]]
+  [1m[35m (2.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (3.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = ' ' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = ' ' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sat, 12 Oct 2013 19:17:58 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$qyaV65TqT146n0TYTsFcW.qxIQB7r9nHTs2eRatT1juuyKa1zGh/."], ["pic", "Example.png"], ["score", 0], ["updated_at", Sat, 12 Oct 2013 19:17:58 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (5.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = ' ' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sat, 12 Oct 2013 19:21:14 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$Jvwqqlmc1lYhKMD.a4udx.EMNXHrg74xX6UJmh5eP1ClA4DcIqwJ."], ["pic", "Example.png"], ["score", 0], ["updated_at", Sat, 12 Oct 2013 19:21:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (3.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = ' ' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 12 Oct 2013 20:57:33 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$2QHK13oxlLfftuA972Vec.BCN4e9Kz2YJiacihFR94MIHxUnCL4lO"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sat, 12 Oct 2013 20:57:33 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (3.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = ' ' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 13 Oct 2013 00:03:31 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$3Udsdh8hRIL1mXgNt/8RIuG4DxmhwEjaiQ/Y7MNfedDfYSIOH.N5y"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:03:31 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+  [1m[35m (3.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = ' ' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 13 Oct 2013 00:09:02 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$tYQqFFXCpgnCj2I1Z5sJWOTIkohS8Ig7QPbhrlNRNuWTrqEpqq/dW"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:09:02 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (4.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 13 Oct 2013 00:09:02 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$DLXy.065odqn2iegaM2QN.zwEH4QkkcYZhzLrs3vHDpU.gmRB/KIG"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:09:02 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (2.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 13 Oct 2013 00:09:02 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$gB2U/bJ8Xbd.4Xwp1WmShuzO4lEdpIR76p6wdLj4EdAq1gXd6vklS"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:09:02 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 13 Oct 2013 00:09:02 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$VzhbggaUjNBJVnv9Rhc.nOmZAEjDS.n0n/2LVxQRrz3GXk9BXM676"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:09:02 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (3.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = ' ' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 13 Oct 2013 00:12:20 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$G8U.FnRdP5Qm2j9IFFnNv.Byr0Y0VqEoC/3eUgFSraO3xI6UVZFbe"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:12:20 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (3.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 13 Oct 2013 00:12:20 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$sQgPxAV/CSgqZNgTHNCTOOxFB0DTnSq.Xq4xu4fglcg5R8LC68zXq"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:12:20 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (3.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 13 Oct 2013 00:12:20 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$XYjd9EidWKOFfXsUJ2tLouO2EwY/G2DJfAY7XiqCHecUKXAvdWNvi"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:12:20 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 13 Oct 2013 00:12:20 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$39h3H0qE6rkHElbvdi5k7uYq2E8hA1gJdMXyLCFvrR02jcoMxYniS"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:12:20 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (3.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (4.0ms)[0m  [1mINSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 13 Oct 2013 00:43:05 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$XPWiOedVw3VfNmHLC55j1e1YxytZ59qgjCyYIF2xFIzmilrHBuF7q"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:43:05 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 13 Oct 2013 00:43:05 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$efOYmAaM1TiPYbBKtSCalOzIPhNxR69NeANi2hdYVYISHgJwWR0tG"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:43:05 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (3.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 13 Oct 2013 00:43:05 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$.PfA/qunLJH9QAB8WyTlGOqk3JcOjDQe.E7iauFH0gfntfm2InfMi"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:43:05 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 13 Oct 2013 00:43:06 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$0qIn129oBm6OZQ9bvyAJQ.igFt63dOx7xZfYpnqOveRUA2pAtw7DO"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:43:06 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (2.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = ' ' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 13 Oct 2013 00:46:09 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$hrpJNhEjpQ6h8U/83hfQIuMbBcxOgPwq9MCixsNHvA9GNxawirTLK"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:46:09 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (3.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 13 Oct 2013 00:46:10 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$QcrgwD8rOBizJB3LcNzH.eTYdKxGC.LInpI9RUkIu9tzWVAB3CzTi"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:46:10 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+  [1m[35m (4.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 13 Oct 2013 00:46:10 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$yHBOBm/9ji.D8YfeCk7ca.kNc9lK2ZLEfPgRHsc8W5WmKgAfn6k12"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:46:10 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (2.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 13 Oct 2013 00:46:10 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$2sR44o/QSzLDBZAshg05QOh6WmtzxeRTaPB7ICoUCS9Be3sNQnvFW"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:46:10 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+  [1m[35m (2.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = ' ' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (4.0ms)[0m  [1mINSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 13 Oct 2013 00:52:58 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$qJr3u2aXf1FxtOmnJe5wweGVkhbPRGAPiB28MSZ9FnIV.z1dd0kdW"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:52:58 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+  [1m[35m (29.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' LIMIT 1
+  [1m[36m (1.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 13 Oct 2013 00:52:58 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$4sOYcLAKvoVIDONZDxFCEeJcg1zyn5rxCnO8SpAda0YVSbiNVu/rm"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:52:58 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+  [1m[35m (2.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 13 Oct 2013 00:52:58 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$F1YYGpNps.EpIhVEyYP14et.NIYn2M3nVXa4Jd8emswoMOhjleit2"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:52:58 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (3.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "users" ("created_at", "is_admin", "name", "password_digest", "pic", "score", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 13 Oct 2013 00:52:58 UTC +00:00], ["is_admin", false], ["name", "Example User"], ["password_digest", "$2a$10$8eOsJjhhWURW6i1zxtb8POIjL3/XSJReZw4BrpBSQL49vbOJJlmQK"], ["pic", "Example.png"], ["score", 0], ["updated_at", Sun, 13 Oct 2013 00:52:58 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1
+  [1m[36m (1.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Example User' LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = ' ' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (1.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (5.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (20.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (4.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (1.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (1.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (2.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (2.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (1.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (1.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (1.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (1.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (2.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (2.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (1.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (3.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (1.0ms)[0m  DELETE FROM "games"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "games" ("start", "interval", "created_at", "updated_at", "id") VALUES ('2013-09-30 22:13:31.000000', 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)
+  [1m[36mFixture Delete (0.0ms)[0m  [1mDELETE FROM "players"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "players" ("is_dead", "role", "lat", "lon", "votes_for", "user_id", "created_at", "updated_at", "id") VALUES ('f', 1, 9.99, 9.99, 1, 1, '2013-10-14 18:24:55', '2013-10-14 18:24:55', 298486374)[0m
+  [1m[35mFixture Delete (0.0ms)[0m  DELETE FROM "users"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)[0m
+SQLite3::SQLException: table users has no column named password: INSERT INTO "users" ("name", "password", "pic", "score", "player", "is_admin", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 1, 1, 'f', '2013-10-14 18:24:55', '2013-10-14 18:24:55', 980190962)
+  [1m[35m (2.0ms)[0m  rollback transaction
