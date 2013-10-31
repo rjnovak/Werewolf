@@ -7,6 +7,7 @@ Werewolf::Application.routes.draw do
       post 'sessions' => 'sessions#create', :as => 'login'
       delete 'sessions' => 'sessions#destroy', :as => 'logout'
     end
+    get 'players' => 'players#index', :as => 'players'
   end
 
   devise_for :users
