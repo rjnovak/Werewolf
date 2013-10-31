@@ -28,7 +28,7 @@ class User < ActiveRecord::Base
     if defined? self.authentication_token
       :ensure_authentication_token
     else
-      generate_token(:authentication_token)
+      :reset_authentication_token
     end
   end
 end
