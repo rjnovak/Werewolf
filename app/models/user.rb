@@ -21,5 +21,5 @@ class User < ActiveRecord::Base
   #before_create { self.name = self.email }
   #before_save :ensure_authentication_token
 
-  has_secure_password
+  #has_secure_password
 end
