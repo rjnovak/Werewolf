@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Werewolf</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
 <h1>Listing players</h1>
-
-<!--<nav>
-  <% if user_signed_in? %>
-   Signed in as <%= current_user.email %>
-   <%= link_to 'New Player', new_player_path %>
-  <% else %>-->
-   <%= link_to "Sign up", new_user_registration_path %>
-   <%= link_to "Sign in", new_user_session_path %>
-  <!--<% end %>
-</nav>-->
 
 <table>
   <tr>
@@ -50,8 +30,6 @@
 
 <br />
 
-<%= link_to "Sign up", new_user_registration_path %>
-<%= link_to "Sign in", new_user_session_path %>
 <%= link_to 'New Player', new_player_path %>
 
 </body>

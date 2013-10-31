@@ -1,4 +1,8 @@
 Werewolf::Application.routes.draw do
+  namespace :api do
+    resources :players
+    resources :games
+  end
 
   devise_for :users
 
